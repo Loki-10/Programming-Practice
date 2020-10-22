@@ -3,12 +3,12 @@ using namespace std;
 
 int main()
 {
-    int a,b,flag = 0;
-    cin >> a;
-    for(int i=0;i<a;i++)
+    int n,input,flag = 0;
+    cin >> n;
+    for(int i=0;i<n;i++)
     {
-        cin >> b;
-        if(b == 1)
+        cin >> input;
+        if(input == 1)
         {
             flag = 1;
             break;
